@@ -1,0 +1,129 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+  background-color: lightskyblue;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1{
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: bold;
+  font-size: 400%;
+  margin-left: 1%;
+}
+h2{
+  font-family:'Ubuntu Mono', monospace;
+  font-size: 20;
+  color : white;
+  font-weight : bold;
+}
+h3{
+  font-family : 'Ubuntu Mono', monospace;
+  font-weight: bold;
+  font-size: 300%;
+}
+p{
+  color: #878788;
+}
+  
+.navbar{
+  padding: 0 0 5rem;
+}
+.narbar-brand {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2rem;
+  padding: 0 18px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  padding: 1.2rem;
+}
+.download-button {
+  margin: 5% 5% 5% 0%;
+}
+.title-image{
+  padding: 0 18px;
+  width: 200px;;
+  z-index: 1;
+  position: absolute;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 7%;
+}
+.icon{
+  color: rgb(9, 178, 234);
+  margin: 1.2rem;
+}
+
+.icon:hover{
+  color:orangered;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: rgb(9, 178, 234);
+}
+.testtimonial-img{
+  width: 30%;
+ 
+}
+.name{
+  color: white;
+}
+
+#press{
+  background-color: rgb(9, 178, 234);
+  text-align: center;
+}
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 10px;
+  
+}
+.pricing-header{
+  color:rgb(14, 14, 14);
+  text-align: center;
+}
+.p-header{
+  text-align: center;
+}
+#cta{
+  background-color:rgb(9, 178, 234);
+  color: white;
+  font-family : 'Ubuntu Mono', monospace;
+  font-size: 100;
+  padding: 7% 10%;
+  text-align: center;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
